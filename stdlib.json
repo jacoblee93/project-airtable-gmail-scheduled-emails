@@ -1,0 +1,12 @@
+{
+  "name": "jacoblee/scheduled-emails",
+  "timeout": 20000,
+  "version": "0.0.0",
+  "events": [
+    {
+      "scheduler.hourly": {
+        "filename": "events/scheduler/hourly.js"
+      }
+    }
+  ]
+}
