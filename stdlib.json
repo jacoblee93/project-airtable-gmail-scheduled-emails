@@ -5,7 +5,10 @@
   "events": [
     {
       "scheduler.hourly": {
-        "filename": "events/scheduler/hourly.js"
+        "filename": "events/scheduler/hourly.js",
+        "subtype": {
+          "offset": "0 minutes"
+        }
       }
     }
   ]
